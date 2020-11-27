@@ -1,19 +1,18 @@
 body {
   margin: 0;
+  height: auto;
+  background: no-repeat url(img/body.svg);
+  min-width: 1024px;
+  max-width: 1920px;
 }
 
-.header {
-  height: 1080px;
-  background: url(img/body.svg);
-}
-
-.container {
+.wrapper {
   width: 83%;
   margin-left: 200px;
   margin-right: auto;
 }
 
-.nav-wrapper {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,16 +127,16 @@ body {
 }
 
 @media (max-width: 1920px) {
-  .header {
+  body {
     height: 56vw;
   }
 
-  .container {
+  .wrapper {
     width: 83vw;
     margin: 0 10.4vw;
   }
 
-  .nav-wrapper {
+  .header {
     padding-top: 4.6vw;
     margin-bottom: 6.8vw;
   }
@@ -196,7 +195,7 @@ body {
 }
 
 @media (max-width: 1366px) {
-  .container {
+  .wrapper {
     width: 84vw;
     margin: 0 10.4vw;
   }
@@ -239,16 +238,16 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .header {
+  body {
     height: 75vw;
   }
 
-  .container {
+  .wrapper {
     width: 92.5vw;
     margin: 0 4vw;
   }
 
-  .nav-wrapper {
+  .header {
     padding-top: 6.11vw;
     margin-bottom: 13vw;
   }
@@ -323,16 +322,16 @@ body {
 }
 
 @media (max-width: 768px) {
-  .header {
+  body {
     height: auto;
   }
 
-  .container {
+  .wrapper {
     width: 83vw;
     margin: 0 10.4vw;
   }
 
-  .nav-wrapper {
+  .header {
     padding-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -414,16 +413,16 @@ body {
 }
 
 @media (max-width: 375px) {
-  .header {
+  body {
     height: 178vw;
   }
 
-  .container {
+  .wrapper {
     width: 80vw;
     margin: 0 11vw;
   }
 
-  .nav-wrapper {
+  .header {
     padding-top: 10.9vw;
     margin-bottom: 20.8vw;
   }
